@@ -1,4 +1,4 @@
-##This repository contains the PyTorch implementation of Denoising Autoencoder (DAE) as a defense against adversarial attacks.
+## This repository contains the PyTorch implementation of Denoising Autoencoder (DAE) as a defense against adversarial attacks.
 
 ### We consider three major attacks for our work:
 1. Fast Gradient Sign Method (FGSM)
@@ -6,7 +6,7 @@
 3. Universal Adversarial Perturbation
 
 
-#####Follow the following steps:
+##### Follow the following steps:
 
 1. Train the base model ( save as './pretrained_modles/FC_model.pth' ) [train_base_model.py]
 2. Load the base model from './pretrained_modles/FC_model.pth' and generate adversarial samples and save the samples at './data_for_ae/adversarial_data.pth' [create_dataset_for_ae.py]
