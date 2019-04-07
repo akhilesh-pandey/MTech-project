@@ -1,0 +1,11 @@
+Cascaded network
+
+# 1
+input -- > defender(cae) [] ---> small_model
+ 
+Accuracy on testset = 97.87%
+===> model save as: ./fc_model_80_100_10_cae.pth
+
+# 2 
+input -- > defender(cae) [] ---> small_model
+
